@@ -46,7 +46,8 @@ quiz-learning-platform/
 ##  Future Enhancements
 - Add user accounts for saving progress.  
 - Include more subjects and question banks.  
-- Track quiz history and performance.  
+- Track quiz history and performance.
+- add database (using MySQL and PHP).
 
 ## Feedback
 Found an issue or have suggestions?  
