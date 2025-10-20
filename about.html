@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About • Quiz & Learning Platform</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #5C7C89; /* page background */
+      color: #222; 
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: "Poppins", sans-serif;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1F4959 0%, #5C7C89 50%, #1F4959 100%);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    header p {
+      font-size: 1.1em;
+      opacity: 0.95;
+    }
+
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #5C7C89;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #5C7C89;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      background: #f0f4ff;
+      padding: 15px 20px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border-left: 4px solid #5C7C89;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    a {
+      display: inline-block;
+      background: #5C7C89;
+      color: white;
+      padding: 12px 35px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: #1F4959;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: linear-gradient(135deg, #1F4959 0%, #5C7C89 50%, #1F4959 100%);
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: auto;
+      width: 100%;
+    }
+
+    footer a {
+      background: transparent;
+      border: 2px solid white;
+      padding: 10px 30px;
+      font-size: 1em;
+      border-radius: 50px;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      background: white;
+      color: #1F4959;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 id="page-title">About the Quiz & Learning Platform</h1>
+    <p>Learn first. Practice next. Master faster.</p>
+  </header>
+
+  <main aria-labelledby="page-title">
+    <section>
+      <h2>What this platform is</h2>
+      <p>
+        This platform helps you study short lessons and then test yourself with one combined quiz.
+        You’ll learn the core ideas on the <strong>Lessons</strong> page and test your understanding
+        on the <strong>Quiz</strong> page with instant feedback.
+      </p>
+    </section>
+
+    <section>
+      <h2>Learning Topics</h2>
+      <ul>
+        <li><strong>Namibia History:</strong> Key events, leaders, timelines, and milestones that shaped Namibia.</li>
+        <li><strong>Namibia Culture:</strong> Languages, traditions, arts, values, and everyday life across regions.</li>
+        <li><strong>Basic Computer Science:</strong> Fundamentals such as data types, algorithms, the web, and programming basics.</li>
+      </ul>
+      <p>
+        All three topics are included in one general quiz that helps you test your knowledge across different areas.
+      </p>
+      <p>
+        <a href="lessons.html">Go to Lessons</a> ·
+        <a href="quizzes.html">Take the Quiz</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>How it works</h2>
+      <ol>
+        <li><strong>Read the lessons:</strong> Learn about Namibia’s History, Culture, and Computer Science basics.</li>
+        <li><strong>Take the quiz:</strong> Answer questions from all three topics in one combined quiz.</li>
+        <li><strong>Check your score:</strong> See your results instantly after submitting.</li>
+        <li><strong>Review and retry:</strong> Go back to the lessons and try again to improve your knowledge.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Key features</h2>
+      <ul>
+        <li>Bite-size lessons that are quick to read and easy to follow.</li>
+        <li>One combined quiz with questions from all topics.</li>
+        <li>Instant feedback after submitting answers.</li>
+        <li>Simple and mobile-friendly interface.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <h3>Do I need an account?</h3>
+      <p>No. You can read lessons and take the quiz without signing in.</p>
+
+      <h3>Are my results saved?</h3>
+      <p>Results are shown immediately on screen. In future updates, accounts may allow progress tracking.</p>
+
+      <h3>Can I use my phone?</h3>
+      <p>Yes. The platform is designed to work smoothly on phones, tablets, and desktops.</p>
+    </section>
+
+    <section>
+      <h2>Contact & feedback</h2>
+      <p>
+        Have ideas or found a typo? Email us at
+        <a href="mailto:quiz&learningplatform@gmail.com">quiz&learningplatform@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="welcome_page.html">Back to Home</a></p>
+  </footer>
+</body>
+</html>
