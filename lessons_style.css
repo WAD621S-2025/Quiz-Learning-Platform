@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #5C7C89;
+  color: white;
+  line-height: 1.6;
+  
+  
+}
+
+
+
+header {
+      background:linear-gradient(135deg, #1F4959 0%, #5C7C89 50%, #1F4959 100%);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+header h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+header p {
+      font-size: 1.1em;
+      opacity: 0.95;
+    }
+
+
+/* Headings */
+ h2, h3 {
+  color: white;
+  border-bottom: 3px solid white;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+
+
+section p {
+  color: white;
+  
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px 5px 0 0;
+  background: #5C7C89;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: #1F4959;
+  transform: scale(1.05);
+}
+
+/* Secondary Button */
+.btn.secondary {
+  background: #95a5a6;
+}
+
+/* Accordion Section */
+.accordion {
+  margin-top: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  padding: 15px;
+  cursor: pointer;
+  background: #f0f4ff;
+  border-radius: 8px;
+  border-left: 4px solid #5C7C89;
+  color: #1F4959;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background: #d0d7de;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  color: #555;
+}
+
+/* Results Page */
+.results {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.results p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #1F4959;
+}
+
+/* Links */
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section Cards */
+section {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1F4959 0%, #5C7C89 50%, #1F4959 100%);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+  font-size: 1.1em;
+  opacity: 0.95;
+}
+
+/* Footer */
+a {
+      display: inline-block;
+     background: #5C7C89;;
+      color: white;
+      padding: 15px 40px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.2em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: #5C7C89;;
+    }
+
+a:hover {
+     background: #5C7C89;
+      transform: scale(1.05);
+      box-shadow: black;
+    }
+
+footer {
+      background: linear-gradient(135deg, #1F4959 0%, #5C7C89 50%, #1F4959 100%);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: auto;
+      
+    }
+
+footer a {
+      background: transparent;
+      border: 2px solid white;
+      padding: 10px 30px;
+      font-size: 1em;
+      box-shadow: none;
+    }
+
+footer a:hover {
+      background: white;
+      color: #5C7C89;
+      transform: scale(1.05);
+    }
